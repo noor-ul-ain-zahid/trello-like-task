@@ -1,0 +1,8 @@
+export const ADD_LIST='ADD_LIST';
+export const EDIT_LIST_TITLE='EDIT_LIST_TITLE';
+export const DELETE_LIST='DELETE_LIST';
+export const ADD_TASK='ADD_TASK';
+export const DELETE_TASK='DELETE_TASK';
+export const EDIT_TASK_TITLE='EDIT_TASK_TITLE';
+export const DRAG_AND_DROP_LISTS='DRAG_AND_DROP_LISTS';
+export const DRAG_AND_DROP_TASKS='DRAG_AND_DROP_TASKS';

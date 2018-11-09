@@ -1,0 +1,45 @@
+.task{
+    border:1px solid lightgrey;
+    border-radius:2px;
+    padding:8px;
+    margin-bottom:8px;
+    
+    &:hover {
+      background: rgba(211, 205, 205, 0.25);
+    }
+
+    &:active {
+        background: rgba(6, 60, 122, 0.747);
+    }
+
+    .content{
+        padding:10px 20px 10px 10px;
+        width:100%;
+        display:flex;
+
+        .title{
+            color:#4d4d4d;
+            width:70%;       
+            overflow-wrap: break-word;
+
+            &:active {
+                color:white
+            }
+        }
+
+        .icon{
+            color:gray;
+            margin-top:10px;
+            padding-right:10px;
+
+            &:hover {
+                cursor: pointer;
+                color: rgba(6, 60, 122, 0.747);
+            }
+            
+            &:active {
+                color:white
+            }
+        }
+    }
+}
